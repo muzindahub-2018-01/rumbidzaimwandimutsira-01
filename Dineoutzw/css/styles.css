@@ -1,0 +1,103 @@
+/* Styles for sample landing page*/
+/* Type Selectors*/
+body {
+	margin: 0;
+	font: normal 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1{
+	font-size: 3.75rem;	/*60px/16px*/
+	color: rgba(0,191,255, 50);
+	text-transform: uppercase;
+	font-weight: normal;
+	line-height: 1.3;
+}
+
+nav{
+	font-weight: bold;
+	background-color: rgba(0,191,255, 50);
+}
+
+h2{
+	font-size: 2em;/*34px/16px*/
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+h3{
+	font-size: 1.5em; /*24px/16px*/
+	text-decoration: underline;
+	font-weight: normal;
+	line-height: 1.2
+	
+}
+
+article {
+	padding: 5% 10%;		/*Gives content space from surronding border*/
+	margin: 5% 10%; 			/*Gives content and border room from other elements*/
+}
+
+/* Psuedo Classes*/
+
+a:link{
+	color: rgb(255,215,0);/* turns links gold*/
+}
+
+a:visited{
+	color: rgb(0,250,154); /* turns links medium spring green*/
+}
+
+/* Class Selectors*/
+.prime-header{
+	background-image: url(../img/food1.jpg);
+}
+
+.brand,
+.dessert,
+.mutare,
+.fine-dining,
+.braai{
+	color:rgb(255,250,250);
+	background-color: cover;
+	width:60%;
+	text-align: center;
+}
+
+.brand{
+	background-color: rgba(0,191,255, 50);
+}
+.d-line{
+	border-top: 1.5px solid;
+}
+
+.prime-content {
+	text-align: center;
+	width: 65%;
+	margin: auto;
+}
+
+.fine-dining {
+
+	background-image: url(../img/jameson.jpg);
+}
+
+.dessert {
+	background-image: url(../img/smooch1.jpg);
+}
+
+.mutare {
+	background-image: url(../img/holiday.jpg);
+}
+
+.braai{
+	background-image: url(../img/Motswako.jpg);
+}
+
+.main-footer {
+	text-align: center;
+	border-top: 2px solid;
+	margin:auto;
+	padding: 40px;
+	border-bottom: 15px solid rgba(0, 123, 167, 43);
+
+}
